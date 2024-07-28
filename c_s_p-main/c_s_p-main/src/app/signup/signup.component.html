@@ -1,0 +1,59 @@
+<section>
+<form >
+    <p>Register Here</p><hr>
+    <div >First Name<br>
+        <input type="text" placeholder="Enter your First Name" id="first_name" name="first_name" [(ngModel)]="User.first_name" required>
+    </div>
+
+    <div>Last Name<br>
+        <input type="text" placeholder="Enter your Last Name" id="last_name" name="last_name" [(ngModel)]="User.last_name" required>
+    </div>    
+
+
+    <div>Phno<br>
+        <input type="tel" placeholder="Enter your Phno" id="ph_num" name="ph_num" [(ngModel)]="User.ph_num" required>
+    </div>   
+       
+    <div>Email<br>
+        <input type="email" placeholder="Enter your Email" id="email" name="email" [(ngModel)]="User.email" required>
+    </div>
+    <div>password<br>
+        <input type="password" placeholder="Enter your password" id="password" name="password" [(ngModel)]="User.password" required>
+    </div>
+    <div>Confirm passsword<br>
+       <input type="password" placeholder="Confirm your password" id="c_password"name="c_password" [(ngModel)]="User.c_password" required>
+    </div>
+
+
+
+
+    <div>Location<br>
+        <input type="text" placeholder="Enter your location" id="location"name="location" [(ngModel)]="User.location" required>
+     </div>
+    
+
+
+    <button type="submit" (click)="Insert()">Register</button>&nbsp;&nbsp;&nbsp;
+    <button type="submit"  id="login" routerLink="/signin">Login</button> <br>
+
+
+
+
+   
+
+
+
+
+
+
+
+</form>
+</section>
+
+<details>
+    <summary><mat-icon>person</mat-icon>Profile</summary>
+    <button type="submit" routerLink="access" routerLinkactive="active">Delete Account </button>&nbsp;&nbsp;&nbsp;<br>
+    <button type="submit"  routerLink="access" routerLinkactive="active" >View Profile</button>
+    <button type="submit" routerLink="access" routerLinkactive="active">update Profile</button>&nbsp;&nbsp;&nbsp;<br>
+
+</details>

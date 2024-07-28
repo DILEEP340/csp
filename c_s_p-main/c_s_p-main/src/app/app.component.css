@@ -1,0 +1,110 @@
+.s{
+    flex:1 1 auto;
+}
+mat-toolbar{
+    background-color: rgb(30, 28, 28);
+    border-radius: 4px;
+    color:white;
+}
+.a{
+    padding-left: 10px;
+}
+
+.a:hover{
+    background-color:rgb(14, 82, 208);
+}
+a{
+font-family:'Times New Roman', Times, serif;
+}
+p{
+    color:aqua;
+    font-size: 19px;
+font-family:'Times New Roman', Times, serif;}
+.logo{
+    padding-left: 15px;
+
+
+}
+
+
+
+.mat-sidenav-container{
+    position: absolute;
+top: 60px;
+bottom:0;
+    left: 0;
+    right: 0;
+    
+
+  }
+  mat-sidenav{
+    width: 270px;
+    padding: 20px;
+    background-color: rgb(30, 28, 28);
+
+    color: white;
+
+
+  }
+
+  mat-sidenav a{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+font-size: 16px;
+  }
+  .b:hover{
+text-decoration: underline;
+color: aqua;
+  }
+  .b{
+    padding-left: 54px;
+  }
+  .search{
+    background-color: green;
+    color: white;
+    height: 31px;
+
+box-shadow: 2px 2px 2px grey;
+
+
+  }
+  .searchbox:hover{
+
+    border-color: rgb(102, 0, 255);
+
+  }
+  .searchbox{
+    color:black;
+    border-radius: 4px;
+    width: 165px;
+    height: 26px;
+    border-width: 3px;
+    box-shadow: 2px 2px 2px grey;
+    font-size: medium;
+    font-weight:bold;
+
+
+  }
+  .search:hover{
+    border-color: rgba(255, 103, 42, 0.899);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

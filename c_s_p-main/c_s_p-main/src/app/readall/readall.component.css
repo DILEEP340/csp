@@ -1,0 +1,90 @@
+.table{
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.pi{
+    text-align: center;
+    color: rgb(9, 14, 11);
+    font-weight: 700;
+}
+th{
+    text-align: center;
+}
+.clg{
+    margin-left: 280px;
+    margin-top: 10px;
+    height:150px;
+    width: 900px;
+}
+
+p{
+    font-size: 35px;
+    margin-left: 210px;
+    letter-spacing: 0.04em;
+    word-spacing: 0.2em;
+}
+.one{
+    margin-top: 20px;
+}
+.two{
+    margin-left: 250px;
+    margin-top: 15px;
+}
+.three{
+    margin-left: 230px;
+    margin-top: 20px;
+    letter-spacing: 0.02em;
+    font-size: 25px;
+}
+
+.logo{
+    margin-left:550px;
+}
+.btn1{
+    display: grid;
+    margin-left: 800px;
+    font-size: 25px;
+    word-spacing: 0.3em;
+    margin-top: 20px;
+    background-color: rgb(70, 75, 64);
+    color:white;
+    border-radius: 0.5em;
+    padding:4px 8px;
+}
+
+.btn1:hover{
+    background-color: rgb(84, 136, 0);
+}
+.btn3{
+    background-color: rgb(63, 196, 63);
+}
+.btn2,.btn3,.btn4{
+    letter-spacing: 0.03em;
+}
+
+.table{
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-left: 125px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.pi{
+    text-align: center;
+    
+}
+th{
+    text-align: center;
+    padding-right:100px ;
+}
+.intro{
+    margin-left: 100px;
+    padding-right: 0px;
+    margin-right:50px ;
+}
+tr{
+    border-color: black;
+    border-width: 100px;
+}

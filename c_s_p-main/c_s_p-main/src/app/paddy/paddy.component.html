@@ -1,0 +1,66 @@
+
+<marquee>Must Know Before Use</marquee>
+
+
+<div class="form">
+
+
+    
+<form  >
+    <table>
+      <tr><td>pest_name</td>
+       
+          <td><input type="text" id="pest_name" name="pest_name" placeholder="Enter Pest Name" [(ngModel)]="User.pest_name" required>
+          </td>
+    </tr>
+    
+    
+    <tr><td>pesticide</td>
+        <td><input type="text" id="pesticide" name="pesticide" [(ngModel)]="User.pesticide" required></td>
+    </tr>
+    
+    
+    
+    <tr><td>Using procedure</td>
+        <td><input type="text" id="how_to_use" name="how_to_use" [(ngModel)]="User.how_to_use" required></td>
+    </tr>
+    
+    
+    
+    <tr><td>quantity</td>
+        <td><input type="text" id="quantity" name="quantity"  [(ngModel)]="User.quantity" required></td>
+    </tr>
+    
+     <tr><td>precautions</td>
+        <td><input type="text" id="precautions" name="precautions"  [(ngModel)]="User.precautions" required></td>
+    </tr>
+      
+  
+    
+    <tr><td>Using Time</td>
+            <td><input type="text" id="when_will_use" name="when_will_use"  [(ngModel)]="User.when_will_use" required></td>
+    </tr>
+    <tr><td></td><td>
+        
+        <p [style]="{color:show}">{{SuccessMsg}},{{ErrorMsg}}</p>
+      <button  class='reset' type="reset" value="reset" (click)="a()" >Ok</button>
+       </td> </tr>
+</table>
+</form>
+</div>
+  
+
+
+
+
+<details>
+    <summary>Services</summary>
+    <button type="submit" (click)="Insert()" >upload</button>&nbsp;&nbsp;&nbsp;<br>
+    <button type="submit" (click)="Delete()">Delete</button>&nbsp;&nbsp;&nbsp;<br>
+    <button type="submit" (click)="update()">update</button>&nbsp;&nbsp;&nbsp;<br>
+    <button type="submit" (click)="Read()">Get</button><br>
+    <button type="submit" routerLink="rall" routerLinkactive="active">ReadAll</button>
+
+    
+</details>
+<img src="assets\rice.png.jpeg"/>

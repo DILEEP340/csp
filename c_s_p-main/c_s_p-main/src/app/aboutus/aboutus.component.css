@@ -1,0 +1,18 @@
+img{
+    width: 600px;
+    height: 400px;
+    margin: 80px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px grey;
+}
+p{
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 400px;
+}
+.QR{
+
+    width: 300px;
+    height: 200px;
+    margin-left: 600px;
+}

@@ -1,0 +1,51 @@
+<div *ngIf="mainpop">
+    <p class="three">TO GET THE INFORMATION OF PESTS AND CORRESPONDING PESTICIDES CLICK ON BELOW</p>
+    <button type="submit" value="readall" (click)="read()" class="btn1">GET</button>
+    </div>
+    
+    <div *ngIf="tablepop">
+    <section class="intro">
+                <div class="bg-image h-100" style="background-color: #f5f7fa;">
+                  <div class="mask d-flex align-items-center h-100">
+                    <div class="container">
+                      <div class="row justify-content-center">
+                        <div class="col-12">
+                            <h1 class="pi">Pests Information For Paddy</h1>
+    
+                          <div class="card">
+                            <div class="card-body p-0">
+                              <div class="table-responsive table-scroll" data-mdb-perfect-scrollbar="true" style="position: relative; height: 700px">
+                                <table class="table table-striped mb-0" bgcolor="black">
+                                  <thead style="background-color: #002d72; color:white">
+                                    <tr bgcolor="red">
+                                        <th>pest_name</th>
+                                        <th> pesticide</th>
+                                        <th>procedure</th>
+                                        <th>precautions</th>
+                                        <th>quantity</th>
+                                        <th>Using_time</th>
+                                       
+                                    </tr>
+                                  <tbody>
+                                    <tr  *ngFor="let i of res" bgcolor="white">
+                                        <td>{{i[0]}}</td>
+                                        <td>{{i[1]}}</td>
+                                        <td>{{i[2]}}</td>
+                                        <td>{{i[3]}}</td>
+                                        <td>{{i[4]}}</td>
+                                        <td>{{i[5]}}</td>
+                                     
+                                      
+                                    </tr>
+                              
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
